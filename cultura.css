@@ -36,7 +36,7 @@
         justify-content: space-between;
         padding: 10px;
         color: rgb(8, 8, 8);
-        background-color: rgb(128, 246, 248);
+        background-color: rgb(66, 121, 249);
         font-size: 2.5vmin;
     }
 
@@ -65,7 +65,7 @@
 
     .header-content{
         margin-bottom: 300px;
-        color: rgb(10, 24, 212);
+        color: rgb(251, 8, 8);
         text-align: center;
     }
 
@@ -76,7 +76,7 @@
     .line{
         width: 250px;
         height: 10px;
-        background: rgb(67, 155, 171);
+        background: rgb(63, 170, 236);
         margin: 10px auto;
         border-radius: 8px;
     }
