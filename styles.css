@@ -44,20 +44,16 @@
         padding: 0 2.4rem;
      }
 
-    /*     navBar  */
-   
-   
-    .navbar{
-
+    /*     navBar  */ 
+   .navbar{
         position: fixed;
         top: 0%;
         left: 0%;
         display: flex;
-        width: 100%;
         justify-content: space-between;
         padding: 10px;
         color: rgb(8, 8, 8);
-        background-color: rgb(66, 121, 249);
+        background-color: rgb(66, 249, 90);
         font-size: 2.5vmin;
     }
 
@@ -76,17 +72,21 @@
      *{
        margin: 0;
        padding: 0;
-       color: #0430bf;
+       color: #050505;
        box-sizing: border-box;
        font-family: 'Montserrat', sans-serif;
      }
+
      nav{
-       background: none;
+      background-color: #aef5b4;
+      position: fixed;
+      width: 100%;
        padding: 10px 40px 10px 70px;
-       border: 1px solid #000;
+       border: 1px solid;
        border-left: none;
        border-right: none;
      }
+
      nav ul{
        display: flex;
        list-style: none;
@@ -396,7 +396,7 @@
         /* footer  */
 
         footer {
-            padding: 4.9rem 0;
+            padding: 1.9rem 0;
             background-color: rgb(188, 238, 188);
             color: rgb(4, 4, 4);
             text-align: center;
