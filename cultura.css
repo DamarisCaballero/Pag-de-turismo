@@ -55,12 +55,12 @@
      *{
        margin: 0;
        padding: 0;
-       color: #f2f2f2;
+       color: #0430bf;
        box-sizing: border-box;
        font-family: 'Montserrat', sans-serif;
      }
      nav{
-       background: #222222;
+       background: #72dbfe;
        padding: 10px 40px 10px 70px;
        border: 1px solid #000;
        border-left: none;
@@ -88,7 +88,7 @@
        padding: 0 12px;
      }
      nav ul div.items a:hover{
-       color: rgb(77, 239, 7);
+       color: rgb(248, 251, 247);
      }
      nav ul .search-icon{
        height: 40px;
@@ -182,25 +182,32 @@
          line-height: 30px;
          margin: 30px 0;
        }
-       
+
        nav ul div.items li a{
          font-size: 19px;
        }
+
      }
+
      @media screen and (max-width: 405px) {
        nav ul{
          flex-wrap: nowrap;
        }
+
        nav ul li.search{
          width: 50vmin;
        }
+
        nav ul li input{
          width: 40vmin;
        }
+
        nav ul li .search-icon{
          width: 10vmin;
        }
+
      }
+
      .content{
        position: absolute;
        top: 50%;
@@ -211,12 +218,14 @@
        padding: 0 40px;
        z-index: -2;
      }
+
      .content .text{
        font-size: 40px;
        font-weight: 800;
        padding: 5px 0;
        color: #202020;
      }
+     
      .content .p{
        font-size: 28px;
        font-weight: 600;
@@ -239,7 +248,7 @@
 
         .header-content{
             margin-bottom: 300px;
-            color: rgb(10, 24, 212);
+            color: rgb(8, 8, 8);
             text-align: center;
         }
 
@@ -250,7 +259,7 @@
         .line{
             width: 250px;
             height: 10px;
-            background: rgb(13, 19, 193);
+            background: rgb(3, 136, 166);
             margin: 10px auto;
             border-radius: 8px;
         }
@@ -289,7 +298,7 @@
     .title{
         text-align: center;
         font-size: 4vmin;
-        color: rgb(4, 4, 4);
+        color: rgb(9, 9, 9);
     }
 
     .row{
@@ -310,7 +319,7 @@
     }
     h4{
         font-size: 3vmin;
-        color: black;
+        color: rgb(9, 9, 9);
         margin: 20px auto;
     }
 
@@ -354,7 +363,7 @@
     .explore-content{
         width: 50%;
         padding: 50px;
-        color: rgb(10, 10, 10);
+        color: rgb(5, 5, 5);
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -366,9 +375,9 @@
     }
 
     .explore-content p{
-        color: rgb(7, 7, 7);
+        color: rgb(245, 239, 239);
         font-size: 4vmin;
-        margin-top: 5rem;
+        margin-top: 2rem;
     }
 
     .explore-content .ctn{
