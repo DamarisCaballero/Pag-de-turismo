@@ -88,7 +88,7 @@
        padding: 0 12px;
      }
      nav ul div.items a:hover{
-       color: cyan;
+       color: rgb(77, 239, 7);
      }
      nav ul .search-icon{
        height: 40px;
@@ -156,10 +156,12 @@
        nav ul li.btn{
          display: block;
        }
+
        nav{
          z-index: 1;
          padding: 9px 40px 9px 0;
        }
+
        nav ul div.items{
          z-index: -1;
          position: fixed;
@@ -170,14 +172,17 @@
          display: inline-block;
          transition: top .4s;
        }
+
        nav ul div.items.show{
          top: 60px;
        }
+
        nav ul div.items li{
          text-align: center;
          line-height: 30px;
          margin: 30px 0;
        }
+       
        nav ul div.items li a{
          font-size: 19px;
        }
@@ -219,10 +224,65 @@
      }
    
 /*  NAVBAR fin  */
+
+/*  foto prueba  */
+        header{
+            width: 100vw;
+            height: 100vh;
+            background-image: url(./assets/cultura9.jpg);
+            background-position: bottom;
+            background-size: cover;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+
+        .header-content{
+            margin-bottom: 300px;
+            color: rgb(10, 24, 212);
+            text-align: center;
+        }
+
+        .header-content h2{
+            font-size: 4vmin;
+        }
+
+        .line{
+            width: 250px;
+            height: 10px;
+            background: rgb(13, 19, 193);
+            margin: 10px auto;
+            border-radius: 8px;
+        }
+
+        .header-content h1{
+            font-size: 7vmin;
+            margin-top: 80px;
+            margin-bottom: 80px;
+        }
+
+        .ctn{
+            padding: 10px 20px ;
+            background: rgb(8, 1, 91);
+            border-radius: 30px;
+            color: rgb(250, 243, 243);
+        }
+
+        .menu-btn{
+            position: absolute;
+            top: 30px;
+            right: 40px;
+            width: 40px;
+            cursor: pointer;
+            display: none;
+        }
+        /*  foto prueba  */
+
      /* eventos */
     section{
         width: 80%;
         margin: 80px auto;
+       padding-bottom: 30px;
         background-color: rgb(161, 233, 252);
     }
 
@@ -255,7 +315,7 @@
     }
 
     p{
-        color: rgb(23, 11, 251);
+        color: rgb(15, 9, 132);
         padding: 20px 40px;
     }
 
@@ -306,8 +366,8 @@
     }
 
     .explore-content p{
-        color: rgb(255, 253, 253);
-        font-size: 3vmin;
+        color: rgb(7, 7, 7);
+        font-size: 4vmin;
         margin-top: 5rem;
     }
 
@@ -324,7 +384,7 @@
     }
 
     .tours{
-        background-color: aliceblue;
+        background-color: rgb(77, 172, 255);
     }
 
     .tours .image-gallery{
