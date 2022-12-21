@@ -60,7 +60,7 @@
        font-family: 'Montserrat', sans-serif;
      }
      nav{
-       background: #f42b02;
+       background: #fdee79;
        padding: 10px 40px 10px 70px;
        border-left: none;
        border-right: none;
@@ -87,15 +87,9 @@
        padding: 0 12px;
      }
      nav ul div.items a:hover{
-       color: rgb(248, 251, 247);
+       color: rgb(246, 6, 6);
      }
-     nav ul .search-icon{
-       height: 40px;
-       width: 240px;
-       display: flex;
-       background: #f2f2f2;
-       border-radius: 5px;
-     }
+    
      nav ul .search-icon input{
        height: 100%;
        width: 200px;
@@ -312,7 +306,7 @@
     }
 
     p{
-        color: rgb(6, 6, 6);
+        color: rgb(5, 5, 5);
         padding: 20px 40px;
     }
 
@@ -341,7 +335,7 @@
         margin-bottom: 0;
         width: 100%;
         height: 100vh;
-        background-image: url(./assets/cultura12.jpg);
+        background-image: url(./assets/cultura20.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -360,10 +354,11 @@
     .explore-content h1{
         font-size: 8vmin;
         margin: 50px;
+        color: red;
     }
 
     .explore-content p{
-        color: rgb(255, 242, 1);
+        color: rgb(238, 255, 54);
         font-size: 4vmin;
         margin-top: 2rem;
     }
@@ -426,7 +421,7 @@
         bottom: 0;
         left: 0;
         padding: 2rem 8%;
-        background-color: rgb(79, 103, 65);
+        background-color: rgb(173, 17, 17);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -451,7 +446,7 @@
         height: 60px;
         width: 60px;
         border-radius: 50px;
-        border: 1px solid rgb(255, 255, 255);
+        border: 1px solid rgb(240, 176, 1);
         background-image: url(./assets/facebook.png);
         background-position: center;
         background-size: 40%;
@@ -461,7 +456,7 @@
     }
 
     .social-icon:hover{
-        background-color: rgb(247, 234, 206);
+        background-color: rgb(247, 222, 2);
     }
 
     .social-icon:nth-of-type(2){
@@ -478,7 +473,7 @@
 
     .footer-container{
         list-style-type: none ;
-        color: rgb(247, 242, 242);
+        color: rgb(234, 246, 9);
         font-size: 18rem;
     }
 
@@ -486,15 +481,16 @@
         margin: 1rem 1.5rem;
         cursor: pointer;
         font-size: 2vmin;
+        color: yellow;
     }
 
     .item:hover{
         opacity: 1;
-        color: rgb(137, 248, 25);
+        color: rgb(242, 226, 4);
     }
 
     .copyright{
-        color: rgb(254, 253, 253);
+        color: rgb(249, 221, 3);
         text-align: center;
     }
 
@@ -574,7 +570,7 @@
          }
 
          .ctn:hover{
-            background-color: rgb(253, 253, 253);
+            background-color: rgb(255, 6, 6);
             color: rgb(12, 12, 12);
             box-shadow: 2px 2px 5px #000000;
          }
