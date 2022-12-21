@@ -14,7 +14,7 @@
     }
 
     .active{
-        color: rgb(8, 8, 8);
+        color: rgb(114, 36, 36);
         text-decoration: underline;
         font-weight: bold;
     }
@@ -41,16 +41,16 @@
      *{
        margin: 0;
        padding: 0;
-       color: #fefcfc;
+       color: #f4f804;
        box-sizing: border-box;
        font-family: 'Montserrat', sans-serif;
      }
      nav{
         position: fixed;
         width: 100%;
-       background: rgb(255, 81, 81);
+       background: rgb(12, 21, 11);
        padding: 10px 40px 10px 70px;
-       border: 1px solid #000;
+       border: 1px solid rgb(7, 7, 7);
        border-left: none;
        border-right: none;
      }
@@ -76,13 +76,13 @@
        padding: 0 12px;
      }
      nav ul div.items a:hover{
-       color: rgb(248, 251, 247);
+       color: rgb(3, 3, 3);
      }
      nav ul .search-icon{
        height: 40px;
        width: 240px;
        display: flex;
-       background: #f2f2f2;
+       background: #050505;
        border-radius: 5px;
      }
      nav ul .search-icon input{
@@ -95,34 +95,20 @@
        font-size: 16px;
        border-radius: 5px 0 0 5px;
      }
-     nav ul .search-icon .icon{
-       height: 100%;
-       width: 40px;
-       line-height: 40px;
-       text-align: center;
-       border: 1px solid #cccccc;
-       border-radius: 0 5px 5px 0;
-       cursor: pointer;
-     }
-     nav ul .search-icon .icon:hover{
-       background: #e6e6e6;
-     }
-     nav ul .search-icon .icon span{
-       color: #222222;
-       font-size: 18px;
-     }
+    
      nav ul li.btn{
        font-size: 29px;
        flex: 1;
        padding: 0 40px;
        display: none;
      }
+     
      nav ul li.btn span{
        height: 42px;
        width: 42px;
        text-align: center;
        line-height: 42px;
-       border: 1px solid #151515;
+       border: 1px solid #1b3e03;
        border-radius: 5px;
        cursor: pointer;
      }
@@ -156,7 +142,7 @@
          top: -220px;
          right: 0;
          width: 100%;
-         background: #222222;
+         background: #9ff394;
          display: inline-block;
          transition: top .4s;
        }
@@ -260,9 +246,9 @@
 
         .ctn{
             padding: 10px 20px ;
-            background: rgb(250, 3, 3);
+            background: rgb(230, 241, 19);
             border-radius: 30px;
-            color: rgb(246, 241, 241);
+            color: rgb(17, 7, 7);
         }
 
         .menu-btn{
@@ -280,13 +266,13 @@
         width: 80%;
         margin: 80px auto;
        padding-bottom: 30px;
-        background-color: rgb(255, 81, 81);
+        background-color: rgb(105, 171, 104);
     }
 
     .title{
         text-align: center;
         font-size: 4vmin;
-       color: rgb(20, 19, 19);
+       color: rgb(200, 243, 6);
     }
 
     .row{
@@ -312,7 +298,7 @@
     }
 
     p{
-        color: rgb(251, 247, 247);
+        color: rgb(9, 9, 9);
         padding: 20px 40px;
     }
 
@@ -327,13 +313,13 @@
     }
 
     #img2{
-        height: 70%;
-        width: 70%;
+        height: 110%;
+        width: 110%;
     }
 
     #img3{
-        height: 110%;
-        width: 110%;
+        height: 90%;
+        width: 90%;
         padding-right: 3rem;
     }
  /* eventos fin */
@@ -352,7 +338,7 @@
     .explore-content{
         width: 50%;
         padding: 50px;
-        color: rgb(232, 8, 8);
+        color: rgb(183, 232, 8);
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -361,13 +347,14 @@
     .explore-content h1{
         font-size: 7vmin;
         margin: 70px;
-        color: #f61d00;
+        color: #0bd63e;
     }
 
     .explore-content p{
-        color: rgb(243, 233, 233);
+        color: rgb(246, 246, 7);
         font-size: 3vmin;
-        margin-top: 1rem;
+        margin-top: 0;
+        padding-bottom: 5rem;
     }
 
     .explore-content .ctn{
@@ -383,7 +370,7 @@
     }
 
     .tours{
-        background-color: rgb(247, 136, 99);
+        background-color: rgb(81, 178, 78);
     }
 
     .tours .image-gallery{
@@ -402,7 +389,7 @@
     .content-col h1{
         margin-left: 2rem;
         font-size: 7vmin;
-        color: rgb(248, 6, 6);
+        color: rgb(232, 248, 6);
 
     }
     .texto{
@@ -429,7 +416,7 @@
         bottom: 0;
         left: 0;
         padding: 2rem 8%;
-        background-color: rgb(255, 81, 81);
+        background-color: rgb(7, 98, 16);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -454,7 +441,7 @@
         height: 60px;
         width: 60px;
         border-radius: 50px;
-        border: 1px solid rgb(255, 255, 255);
+        border: 1px solid rgb(206, 206, 9);
         background-image: url(./assets/facebook.png);
         background-position: center;
         background-size: 40%;
@@ -464,7 +451,7 @@
     }
 
     .social-icon:hover{
-        background-color: rgb(247, 234, 206);
+        background-color: rgb(197, 226, 8);
     }
 
     .social-icon:nth-of-type(2){
@@ -481,7 +468,7 @@
 
     .footer-container{
         list-style-type: none ;
-        color: rgb(247, 242, 242);
+        color: rgb(205, 228, 27);
         font-size: 18rem;
     }
 
@@ -497,7 +484,7 @@
     }
 
     .copyright{
-        color: rgb(254, 253, 253);
+        color: rgb(1, 47, 4);
         text-align: center;
     }
 
