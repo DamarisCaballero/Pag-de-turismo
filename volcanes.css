@@ -50,10 +50,10 @@
         width: 100%;
        background: rgb(12, 21, 11);
        padding: 10px 40px 10px 70px;
-       border: 1px solid rgb(7, 7, 7);
        border-left: none;
        border-right: none;
      }
+     
      nav ul{
        display: flex;
        list-style: none;
@@ -76,7 +76,7 @@
        padding: 0 12px;
      }
      nav ul div.items a:hover{
-       color: rgb(3, 3, 3);
+       color: rgb(253, 253, 253);
      }
      nav ul .search-icon{
        height: 40px;
