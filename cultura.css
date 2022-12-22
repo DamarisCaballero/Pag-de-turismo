@@ -59,7 +59,10 @@
        box-sizing: border-box;
        font-family: 'Montserrat', sans-serif;
      }
+
      nav{
+      position: fixed;
+      width: 100%;
        background: #fdee79;
        padding: 10px 40px 10px 70px;
        border-left: none;
@@ -89,6 +92,14 @@
      nav ul div.items a:hover{
        color: rgb(246, 6, 6);
      }
+
+     nav ul .search-icon{
+      height: 40px;
+      width: 240px;
+      display: flex;
+      background: #050505;
+      border-radius: 5px;
+    }
     
      nav ul .search-icon input{
        height: 100%;
@@ -101,10 +112,6 @@
        border-radius: 5px 0 0 5px;
      }
     
-     nav ul .search-icon .icon span{
-       color: #222222;
-       font-size: 18px;
-     }
      nav ul li.btn{
        font-size: 29px;
        flex: 1;
@@ -486,7 +493,7 @@
 
     .item:hover{
         opacity: 1;
-        color: rgb(242, 226, 4);
+        color: rgb(8, 8, 8);
     }
 
     .copyright{

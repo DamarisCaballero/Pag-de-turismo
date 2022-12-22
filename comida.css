@@ -50,7 +50,6 @@
         width: 100%;
        background: rgb(255, 81, 81);
        padding: 10px 40px 10px 70px;
-       border: 1px solid #000;
        border-left: none;
        border-right: none;
      }
@@ -70,11 +69,13 @@
        padding: 0 25px;
        display: inline-flex;
      }
+
      nav ul div.items a{
-       text-decoration: none;
-       font-size: 18px;
-       padding: 0 12px;
-     }
+      text-decoration: none;
+      font-size: 18px;
+      padding: 0 12px;
+    }
+    
      nav ul div.items a:hover{
        color: rgb(248, 251, 247);
      }
@@ -95,28 +96,14 @@
        font-size: 16px;
        border-radius: 5px 0 0 5px;
      }
-     nav ul .search-icon .icon{
-       height: 100%;
-       width: 40px;
-       line-height: 40px;
-       text-align: center;
-       border: 1px solid #cccccc;
-       border-radius: 0 5px 5px 0;
-       cursor: pointer;
-     }
-     nav ul .search-icon .icon:hover{
-       background: #e6e6e6;
-     }
-     nav ul .search-icon .icon span{
-       color: #222222;
-       font-size: 18px;
-     }
+    
      nav ul li.btn{
-       font-size: 29px;
-       flex: 1;
-       padding: 0 40px;
-       display: none;
-     }
+      font-size: 29px;
+      flex: 1;
+      padding: 0 40px;
+      display: none;
+    }
+    
      nav ul li.btn span{
        height: 42px;
        width: 42px;
