@@ -7,25 +7,29 @@
     <title>Paguina de Turismo El Salvador</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
     <link rel="stylesheet" href="./styles.css">
+ 
 </head>
 <body>
 
 
     <!--------narBar----->
     <nav>
-        <ul>
-           <li class="logo">EL SALVADOR</li>
-           <li class="btn"><span class="fas fa-bars"></span></li>
-           <div class="items">
-              <li><a href="#">Cultura</a></li>
-              <li><a href="#">Tradiciones</a></li>
-              <li><a href="#">Naturaleza</a></li>
-              <li><a href="#">Contactanos</a></li>
-           </div>
-           
+        <div class="nav-left">
+          <a href="#">My Website</a>
+        </div>
+        <div class="nav-right">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="nav-menu-button">
+          <button onclick="toggleMenu()">Menu</button>
+        </div>
+      </nav>
       
-     </nav>
-
+      
+      
      <!--------narBar----->
 
    <!-------------seccion------------>
@@ -33,10 +37,10 @@
         <div class="container">
             <h2 class="h2-sub">
                 Bienvenidos
-            </h2>
-            <h1 class="head">a El Salvador</h1>
+            </h2><br>
+            <h1 class="head">a El Salvador</h1><br>
             <div class="he-des">
-                <h5>Pueblos magicos</h5>
+                <h5>Pueblos mágicos</h5>
                 <a href="./bosque.html" target="_blank" class="btn cta-btn">Explora los bosques</a>
             </div>
         </div>
@@ -56,13 +60,13 @@
                     <div class="global">
                         <h2 class="h2-sub">
                             Descubre
-                        </h2>
+                        </h2><br>
                         <h1 class="head hea-dark">las playas más famosas</h1>
                         <div class="circle">
                             <i class="fas fa-circle"></i>
                         </div>
                     </div>
-                    <p>
+                    <p class="text">
                         La franja costera y mejores Playas de El Salvador, las localizamos en 7
                          departamentos repletos de playas paradisiacas encabezadas por el 
                          departamento de La Libertad, siguiendo por Sonsonate y La Paz.
@@ -105,11 +109,12 @@
                             <i class="fas fa-circle"></i>
                         </div>
                     </div>
-                    <p> Ostenta una variedad de especies arbóreas (Más de 350) mucho 
+                    <p class="text"> Ostenta una variedad de especies arbóreas (Más de 350) mucho 
                         mayor que cualquier otro bosque. Sus farallones 
                         escarpados, sus nacimientos de agua cristalina, pendientes 
                         y quebradas boscosas, encierran una preciosa tierra virgen
                          donde han hallado refugio numerosos animales y plantas.
+                         
                     </p>
                     <a href="./naturaleza.html" target="_blank" class="btn cta-btn">NATURALEZA</a>
                 </div>
@@ -157,12 +162,12 @@
                         <h2 class="h2-sub">
                             Descubre
                         </h2>
-                        <h1 class="head hea-dark">la cordillera volvanica</h1>
+                        <h1 class="head hea-dark">la cordillera volcánica</h1>
                         <div class="circle">
                             <i class="fas fa-circle"></i>
                         </div>
                     </div>
-                    <p>Es llamado Complejo Los Volcanes por albergar a los tres grandes 
+                    <p class="text">Es llamado Complejo Los Volcanes por albergar a los tres grandes 
                         colosos, reconocidos cada uno por impresionantes momentos 
                         históricos de la vida salvadoreña.</p>
                     <a href="./volcanes.html"  target="_blank" class="btn cta-btn">Volcanes</a>
@@ -218,5 +223,6 @@
             </div>
         </div>
     </footer>
+<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
