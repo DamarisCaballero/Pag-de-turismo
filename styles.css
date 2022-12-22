@@ -215,8 +215,8 @@
  /* platillos */
 
     .image-group2 {
-        height: 80%;
-        width: 80%;
+        height: 100%;
+        width: 100%;
        padding: 4rem;
     }
     
@@ -227,6 +227,10 @@
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 1.1rem;
         }
+        .image-group img {
+            width: 100%;
+            height: 100%;
+          }
     
         
     .disco .res-des{
@@ -417,5 +421,10 @@
         
         }
 
+        @media only screen and (max-width: 600px) {
+            .head {
+              font-size: 3rem;
+            }
+          }
             
     
