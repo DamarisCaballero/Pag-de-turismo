@@ -578,7 +578,7 @@
 
          .ctn:hover{
             background-color: rgb(253, 253, 253);
-            color: blueviolet;
+            color: rgb(5, 0, 9);
             box-shadow: 2px 2px 5px #000000;
          }
 
